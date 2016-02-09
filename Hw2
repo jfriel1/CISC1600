@@ -1,0 +1,23 @@
+// Assignment #2
+// cin with multiple strings
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+        string x;
+        string y;
+        string z;
+
+        cout <<"Please input your name: ";
+        getline(cin, x);
+        cout << "Please input your age: ";
+        getline(cin, y);
+        cout << "Please input your favorite thing: ";
+        getline(cin, z);
+        cout << "Hi, my name is " << x << "." <<  endl;
+        cout << "I am " << y << "years old and I like " << z << "." << endl;
+        return 0;
+}
