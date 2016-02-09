@@ -1,0 +1,32 @@
+//Assignment 3
+//Use all the types
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main ()
+{
+        // declaring variables:
+        int a;
+        double result1;
+        double b;
+        string x;
+        double result2;
+
+        // process:
+        a = 3;
+        b = 0.14;
+        result1 = a + b;
+        result2 = a - b;
+
+
+        //print out the result:
+        cout << "Please enter your name: ";
+        getline(cin, x);
+        cout << "Hello " << x << ", I've calculated that " << a << " + " << b << " = " << result1 << ", and " << a << " - " << b << " = " << result2 << "." << endl;
+
+        //terminate the program:
+        return 0;
+}
