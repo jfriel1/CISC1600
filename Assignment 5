@@ -1,0 +1,32 @@
+//Assignment 5
+//Combine use loops & conditions
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+
+{
+        cout << "Let's play a game. Try to guess my number by entering an interger between 1 and 50." << endl;
+
+        int number;
+        cin >> number;
+        while (number != 17)
+{
+        if (number > 17)
+{
+        cout << "Well that number was too high, try a lower number." << endl;
+        cin >> number;
+}
+        else if (number < 17)
+{
+        cout << "Well that number was too low, try a higher number." <<  endl;
+        cin >> number;
+}
+}
+        if (number = 17)
+{
+        cout << "You got it!" << endl;
+}
+}
