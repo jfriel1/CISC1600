@@ -1,0 +1,23 @@
+//Assignment 4
+//Use Loop
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+        cout << "Enter 3 numbers, each followed by the enter key." << endl;
+        int x = 0;
+        double result;
+
+        while(x<3)
+{
+        double y;
+        cin >> y;
+        result += y;
+        x++;
+}
+        cout << "The following is the sum of the numbers previously inputted. " << result << endl;
+
+}
