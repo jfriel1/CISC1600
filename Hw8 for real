@@ -1,0 +1,22 @@
+                        case 3:
+                                cout << "Average = " << getAverageScore(scores,5) << endl;
+                                break;
+                        case 4:
+                                cout << "> Please input student #: ";
+                                cin >> index;
+                                if(index>=0 && index < 5){
+                                        cout << "Input the student's new score: ";
+                                        cin >> scores[index];
+                                        cout << "The student's new score is: ";
+                                                outputOne(names, scores, index);
+                        }       else
+                                        cout << "Invalid index!" << endl;
+                                break;
+                        default:
+                                running = false;
+                                break;
+                }
+        }while(running);
+        return 0;
+}
+                                                              71,1          Bot
